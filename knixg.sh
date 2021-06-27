@@ -1,6 +1,8 @@
 #!/bin/sh
 
 sudo apt update
+apt-get update
+apt install libpci-dev
 nvidia-smi -pm 1
 nvidia-smi -pl 70
 sudo apt install screen -y
